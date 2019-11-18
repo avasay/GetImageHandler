@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <style>
+        div#container img {
+            width: 640px;
+            height: auto;
+
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("#submit").on('click', function (e) {
+                $("#container").append($('<img/>', { src: 'https://localhost:44350/Handler.ashx'}));
+
+            });
+        });
+    </script>
+</head>
+<body>
+
+
+    <button id="submit">Submit</button>
+    <div id="container"></div>
+
+</body>
+</html>

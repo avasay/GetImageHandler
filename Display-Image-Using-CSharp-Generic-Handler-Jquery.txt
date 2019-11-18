@@ -1,0 +1,2 @@
+﻿Purpose:
+This is from my Github post called Display Image Using CSharp Generi cHanlder and Jquery
